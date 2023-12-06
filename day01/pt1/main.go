@@ -29,7 +29,7 @@ func readFile(filepath string) (fileLines []string, err error) {
 }
 
 func main() {
-	fileLines, err := readFile("../input.txt")
+	fileLines, err := readFile("../inputs.txt")
 	if err != nil {
 		panic(err)
 	}

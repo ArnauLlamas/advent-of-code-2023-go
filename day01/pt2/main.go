@@ -103,7 +103,7 @@ func findLastDigitStr(line string) (pos int, digit string) {
 }
 
 func main() {
-	fileLines, err := readFile("../input.txt")
+	fileLines, err := readFile("../inputs.txt")
 	if err != nil {
 		panic(err)
 	}
